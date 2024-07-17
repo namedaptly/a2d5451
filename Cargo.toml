@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "a2d5451"
+version = "0.1.0"
+
+[dependencies]
+axum = "0.7.5"
+serde = {version = "1.0.204", features = ["derive"]}
+tokio = {version = "1.38.1", features = ["full"]}
+thiserror = "1.0.62"
